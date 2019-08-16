@@ -6,7 +6,7 @@
   * [1.1-第一次尝试](1/1.md)
   * [1.2-算法的提出](1/2.md)
   * [1.3-第二次尝试](1/3.md)
-  * [Untitled](1/untitled-4.md)
+  * [1.4-算法效率衡量](1/4.md)
   * [Untitled](1/untitled-3.md)
   * [Untitled](1/untitled-2.md)
   * [Untitled](1/untitled-1.md)
