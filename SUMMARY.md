@@ -9,5 +9,6 @@
   * [1.4-算法效率衡量](chapter1/session4.md)
   * [1.5-算法分析](chapter1/session5.md)
   * [1.6-常见时间复杂度](chapter1/session6.md)
+  * [1.7-Python内置类型性能分析](chapter1/session7.md)
   * [Untitled](chapter1/untitled.md)
 
