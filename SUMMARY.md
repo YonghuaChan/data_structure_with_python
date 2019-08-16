@@ -1,6 +1,6 @@
 # Table of contents
 
-* [数据结构与算法（Python）](README.md)
+* [Data Structure With Python](README.md)
 * [导语](shu-ju-jie-gou-yu-suan-fa-python.md)
 * [1. 引入](chapter1/README.md)
   * [1.1-第一次尝试](chapter1/session1.md)
