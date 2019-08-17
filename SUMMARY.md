@@ -15,5 +15,5 @@
   * [2.1-顺序表的基本形式](chapter2/session1.md)
   * [2.2-顺序表的结构与实现](chapter2/session2.md)
   * [2.3-顺序表的操作](chapter2/session3.md)
-  * [Untitled](chapter2/untitled.md)
+  * [2.4-Python中的顺序表](chapter2/session4.md)
 
