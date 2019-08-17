@@ -13,7 +13,7 @@
   * [1.8-数据结构](chapter1/session8.md)
 * [2-顺序表](chapter2/README.md)
   * [2.1-顺序表的基本形式](chapter2/session1.md)
-  * [Untitled](chapter2/untitled-2.md)
+  * [2.2-顺序表的结构与实现](chapter2/session2.md)
   * [Untitled](chapter2/untitled-1.md)
   * [Untitled](chapter2/untitled.md)
 
