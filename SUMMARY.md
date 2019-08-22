@@ -17,5 +17,5 @@
   * [2.3-顺序表的操作](chapter2/session3.md)
   * [2.4-Python中的顺序表](chapter2/session4.md)
 * [3-链表](chapter3/README.md)
-  * [3.1-单向链表](chapter3/3.1-dan-xiang-lian-biao.md)
+  * [3.1-单向链表](chapter3/session1.md)
 
