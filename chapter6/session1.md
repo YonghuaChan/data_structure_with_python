@@ -17,11 +17,14 @@
 
 交换过程图示\(第一次\)：
 
-![bubblesort](../.gitbook/assets/image%20%285%29.png)
+![bubblesort](../.gitbook/assets/image%20%2810%29.png)
 
 那么我们需要进行n-1次冒泡过程，每次对应的比较次数如下图所示：
 
-![compare](../.gitbook/assets/image%20%286%29.png)
+  
+
+
+![compare](../.gitbook/assets/image%20%287%29.png)
 
 ```text
 def bubble_sort(alist):
@@ -44,6 +47,7 @@ print(li)
 
 ### 冒泡排序的演示 <a id="&#x5192;&#x6CE1;&#x6392;&#x5E8F;&#x7684;&#x6F14;&#x793A;"></a>
 
-效果：  
-![bubble](../images/bubble.gif)
+效果：
+
+![](../.gitbook/assets/bubble.gif)
 

@@ -2,7 +2,7 @@
 
 单向链表也叫单链表，是链表中最简单的一种形式，它的每个节点包含两个域，一个信息域（元素域）和一个链接域。这个链接指向链表中的下一个节点，而最后一个节点的链接域则指向一个空值。
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 * 表元素域elem用来存放具体的数据。
 * 链接域next用来存放下一个节点的位置（python中的标识）
@@ -66,7 +66,7 @@ class SingleLinkList(object):
 
 **头部添加元素**
 
-![&#x5355;&#x94FE;&#x8868;&#x8868;&#x5934;&#x63D2;&#x5165;&#x5143;&#x7D20;](../.gitbook/assets/image%20%281%29.png)
+![&#x5355;&#x94FE;&#x8868;&#x8868;&#x5934;&#x63D2;&#x5165;&#x5143;&#x7D20;](../.gitbook/assets/image%20%289%29.png)
 
 ![](../images/单链表表头插入元素.png)
 
@@ -100,7 +100,7 @@ class SingleLinkList(object):
 
 **指定位置添加元素**
 
-![&#x5355;&#x94FE;&#x8868;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x6DFB;&#x52A0;&#x5143;&#x7D20;](../.gitbook/assets/image%20%282%29.png)
+![&#x5355;&#x94FE;&#x8868;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x6DFB;&#x52A0;&#x5143;&#x7D20;](../.gitbook/assets/image.png)
 
 ```python
     def insert(self, pos, item):
@@ -128,7 +128,7 @@ class SingleLinkList(object):
 
 **删除节点**
 
-![&#x5355;&#x94FE;&#x8868;&#x5220;&#x9664;&#x8282;&#x70B9;](../.gitbook/assets/image%20%283%29.png)
+![&#x5355;&#x94FE;&#x8868;&#x5220;&#x9664;&#x8282;&#x70B9;](../.gitbook/assets/image%20%281%29.png)
 
 ```python
     def remove(self,item):
