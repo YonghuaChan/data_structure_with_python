@@ -18,4 +18,6 @@
   * [2.4-Python中的顺序表](chapter2/session4.md)
 * [3-链表](chapter3/README.md)
   * [3.1-单向链表](chapter3/session1.md)
+* [排序](chapter6/README.md)
+  * [冒泡排序](chapter6/session1.md)
 
