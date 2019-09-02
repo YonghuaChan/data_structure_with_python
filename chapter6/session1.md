@@ -26,18 +26,52 @@
 
 ![compare](../.gitbook/assets/image%20%287%29.png)
 
-```text
+{% code-tabs %}
+{% code-tabs-item title="冒泡排序实现-1" %}
+```python
+def bubble_sort(alist):
+    """冒泡排序"""
+    n = len(alist)
+    for j in range(0, n-1):
+        # 班长要走多少次
+        for i in range(0, n-j-1):
+            # 班长从头走到尾
+            if alist[i] > alist[i+1]:
+                alist[i], alist[i+1] = alist[i+1], alist[i]
+                
+# i: 0~n-2, range(0, n-1), j=0
+# i: 0~n-3, range(0, n-1-1), j=1
+# i: 0~n-4, range(0, n-1-2), j=2
+# ...
+# i: 0~, range(0, n-1-j), j=j
+                
+if __name__ == "__main__":
+    li = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+    print(li)
+    bubble_sort(li)
+    print(li)
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="冒泡排序实现-2" %}
+```python
 def bubble_sort(alist):
     for j in range(len(alist)-1,0,-1):
         # j表示每次遍历需要比较的次数，是逐渐减小的
         for i in range(j):
             if alist[i] > alist[i+1]:
                 alist[i], alist[i+1] = alist[i+1], alist[i]
-
-li = [54,26,93,17,77,31,44,55,20]
-bubble_sort(li)
-print(li)
+                
+if __name__ == "__main__":
+    li = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+    print(li)
+    bubble_sort(li)
+    print(li)
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ### 时间复杂度 <a id="&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;"></a>
 
