@@ -18,6 +18,7 @@
   * [2.4-Python中的顺序表](chapter2/session4.md)
 * [3-链表](chapter3/README.md)
   * [3.1-单向链表](chapter3/session1.md)
+  * [3.2-单向循环链表](chapter3/session2.md)
   * [3.3-双向链表](chapter3/session3.md)
 * [4-栈](chapter4/README.md)
   * [4.1-栈结构实现](chapter4/session1.md)
