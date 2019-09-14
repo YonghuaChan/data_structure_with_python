@@ -19,7 +19,7 @@
 
 ### 实现 <a id="&#x5B9E;&#x73B0;"></a>
 
-```text
+```python
 class Node(object):
     """双向链表节点"""
     def __init__(self, item):
@@ -102,7 +102,7 @@ class DLinkList(object):
 
 ![&#x53CC;&#x5411;&#x94FE;&#x8868;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x63D2;&#x5165;&#x5143;&#x7D20;](../.gitbook/assets/shuang-xiang-lian-biao-zhi-ding-wei-zhi-cha-ru-yuan-su.png)
 
-```text
+```python
     def insert(self, pos, item):
         """在指定位置添加节点"""
         if pos <= 0:
@@ -133,7 +133,7 @@ class DLinkList(object):
 
 ![&#x53CC;&#x5411;&#x94FE;&#x8868;&#x5220;&#x9664;&#x8282;&#x70B9;](../.gitbook/assets/shuang-xiang-lian-biao-shan-chu-jie-dian.png)
 
-```text
+```python
     def remove(self, item):
         """删除元素"""
         if self.is_empty():
@@ -163,7 +163,7 @@ class DLinkList(object):
 
 **测试**
 
-```text
+```python
 if __name__ == "__main__":
     ll = DLinkList()
     ll.add(1)
